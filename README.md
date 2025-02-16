@@ -5,8 +5,7 @@
 ![TeraGen AI Banner](https://teragenai.com/logo.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/teragenai/teragenai-data-generator)](https://hub.docker.com/r/teragenai/teragenai-data-generator)  
-[![GitHub License](https://img.shields.io/github/license/teragenai/data-generator)](LICENSE)  
-[![GitHub Stars](https://img.shields.io/github/stars/teragenai/data-generator?style=social)](https://github.com/teragenai/data-generator)
+[![GitHub License](https://img.shields.io/github/license/teragenai/teragenai-data-generator)](LICENSE)
 
 ---
 
