@@ -2,7 +2,7 @@
 
 🚀 **Generate high-quality synthetic data with ease using TeraGen AI!**
 
-![TeraGen AI Banner](https://teragenai.com/logo.png)
+<img src="https://teragenai.com/logo.png" width="200">
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/teragenai/teragenai-data-generator)](https://hub.docker.com/r/teragenai/teragenai-data-generator)  
 [![GitHub License](https://img.shields.io/github/license/teragenai/teragenai-data-generator)](LICENSE)
