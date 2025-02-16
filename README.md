@@ -60,10 +60,43 @@ Once running, access the application at:
 
 ### Generate Synthetic Data with a Simple Prompt
 
-To create data, use the command:
+To generate synthetic data, run the following command:
 
 ```bash
-docker exec -it teragenai-generator generate --type=user --count=100
+docker run --rm \
+  -v $(pwd):/app/output \
+  teragenai/teragenai-data-generator:latest \
+  --prompt "Generate synthetic data for a financial report" \
+  --samples 5000000
+```
+
+### Additional Examples
+
+Generate **user profile data**:
+```bash
+docker run --rm \
+  -v $(pwd):/app/output \
+  teragenai/teragenai-data-generator:latest \
+  --prompt "Generate 100 synthetic user profiles" \
+  --samples 100000
+```
+
+Generate **IoT sensor data**:
+```bash
+docker run --rm \
+  -v $(pwd):/app/output \
+  teragenai/teragenai-data-generator:latest \
+  --prompt "Generate IoT sensor readings for environmental monitoring" \
+  --samples 5000
+```
+
+Generate **e-commerce transaction data**:
+```bash
+docker run --rm \
+  -v $(pwd):/app/output \
+  teragenai/teragenai-data-generator:latest \
+  --prompt "Generate 500 synthetic e-commerce transactions" \
+  --samples 500000
 ```
 
 ### Supported Data Types
