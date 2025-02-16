@@ -1,4 +1,4 @@
-# 📌 TeraGen AI - Data Generator
+# TeraGen AI - Data Generator
 
 🚀 **Generate high-quality synthetic data with ease using TeraGen AI!**
 
