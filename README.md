@@ -7,9 +7,13 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/teragenai/teragenai-data-generator)](https://hub.docker.com/r/teragenai/teragenai-data-generator)  
 [![GitHub License](https://img.shields.io/github/license/teragenai/teragenai-data-generator)](LICENSE)
 
+
+<img src="https://raw.githubusercontent.com/teragenai/teragenai-data-generator/refs/heads/main/teragenai-on-dockerhub.png" width="500">
+
 ---
 
 ## 📖 About
+
 
 **TeraGen AI Data Generator** is a **powerful, cloud-native tool** designed to **generate high-quality synthetic data** for:
 
